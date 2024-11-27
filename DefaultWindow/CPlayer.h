@@ -24,7 +24,7 @@ private:
 
 private:
     list<CObj*>*        m_pBullet;
-
+    unsigned long long m_ullLast_Fire;
     Bullet_Direction Bullet_Di;
 };
 

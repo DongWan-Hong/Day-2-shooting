@@ -2,6 +2,7 @@
 
 #include "Define.h"
 #include "CPlayer.h"
+#include "CMonster.h"
 
 class CMainGame
 {
@@ -18,9 +19,11 @@ public:
 	void		Release();
 
 private:
+
 	HDC			m_hDC; // 화면 출력하는 변수 
 
 	CObj*		m_pPlayer; // 내가 움직일 플레이어
+	CObj* m_pMonster; // 내가 움직일 플레이어
 	list<CObj*>	m_BulletList; // 총알 저장할 변수
 
 	DWORD		m_dwTime; // 겟틱카운터 저장할 변수

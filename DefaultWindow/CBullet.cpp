@@ -4,6 +4,7 @@
 
 CBullet::CBullet()
 {
+	ZeroMemory(&Check_Bul, sizeof(Check_Bul));
 }
 
 CBullet::~CBullet()

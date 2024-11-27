@@ -2,7 +2,7 @@
 
 #include "CObj.h"
 
-enum Check_Bullet { cUp, cDown, cRight, cLeft,cFirst,cSecond};
+enum Check_Bullet { cUp, cDown, cRight, cLeft,cFirst,cSecond}; 
 
 class CBullet : public CObj
 {
@@ -10,7 +10,7 @@ public:
 	CBullet();
 	virtual ~CBullet();
 
-
+public:
 
 public:	
 	virtual void Initialize()	 override;
